@@ -227,7 +227,7 @@ export default function MeatholeRecipeFinder() {
     const url = "https://famboni-meathole-recipe-finder.vercel.app/";
     if (navigator.share) {
       navigator.share({
-        title: selectedRecipe?.strMeal || "Tony's Meathole Recipe",
+        title: selectedRecipe?.strMeal || "Tony's Meat-Hole Recipe",
         text: "Check out this delicious recipe!",
         url: url,
       });
@@ -245,7 +245,7 @@ export default function MeatholeRecipeFinder() {
           <div className="flex items-center gap-4">
             <Image src="/icon-192.png" alt="Logo" width={70} height={70} className="rounded-2xl" />
             <div className="text-center">
-              <h1 className="text-5xl md:text-6xl font-black text-orange-400 tracking-tighter">TONY'S MEATHOLE</h1>
+              <h1 className="text-5xl md:text-6xl font-black text-orange-400 tracking-tighter">TONY'S MEAT-HOLE</h1>
               <p className="text-xl md:text-2xl text-orange-200">Recipe Finder</p>
             </div>
           </div>
